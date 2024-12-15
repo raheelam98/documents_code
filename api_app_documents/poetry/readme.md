@@ -8,6 +8,21 @@ poetry —-version
 poetry new project_name 
 cd project_name
 ```
+**Poetry environmnet**
+
+```bash
+poetry add fastapi sqlmodel uvicorn\[standard\] psycopg
+```
+
+```bash
+poetry add passlib bcrypt python-jose 
+```
+
+```bash
+poetry add python-multipart
+```
+
+**Detail**
 
 add drivers
 ```shell
