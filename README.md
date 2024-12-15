@@ -1,6 +1,6 @@
 # Commands 
 
-Documentation of Python, Chatgpt , Fast API, Docker Container, Kubernetes 
+Documentation of Python, Chatgpt , Fast API, Docker Container, Kubernetes  
 
 **Note**
 File Permissions with chmod -- only for mac user
