@@ -43,7 +43,7 @@ poetry add protobuf
 ```
 
 ```shell
-poetry add passlib 
+poetry add passlib  
 ```
 
 **Current virtual environment for your Poetry project**
