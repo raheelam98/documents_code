@@ -4,30 +4,30 @@
 
 create new project
 ```shell
-$ poetry —-version
-$ poetry new project_name 
-$ cd project_name
+poetry —-version
+poetry new project_name 
+cd project_name
 ```
 
 add drivers
 ```shell
-$ poetry add fastapi uvicorn\[standard\] 
+poetry add fastapi uvicorn\[standard\] 
 ```
 
 add drivers for db
 ```shell
-$ poetry add sqlmodel psycopg psycopg2
+poetry add sqlmodel psycopg psycopg2
 ```
 
 add drivers for testing
 ```shell
-$ poetry add pytest
-$ poetry run pytest
+poetry add pytest
+poetry run pytest
 ```
 
 add drivers (one line command)
 ```shell
-$ poetry add fastapi sqlmodel uvicorn\[standard\] psycopg 
+poetry add fastapi sqlmodel uvicorn\[standard\] psycopg 
 ```
 
 add aiokafka
@@ -35,43 +35,35 @@ add aiokafka
 > aiokafka is an asynchronous Kafka client for Python, which allows your application to interact with Apache Kafka message brokers in an asynchronous manner.
 
 ```shell
-$ poetry add aiokafka
+poetry add aiokafka
 ```
 
 ```shell
-$ poetry add protobuf
+poetry add protobuf
 ```
 
 ```shell
-$ poetry add passlib 
+poetry add passlib 
 ```
 
-```shell
-$ poetry add  
+**Current virtual environment for your Poetry project**
+
+```bash
+poetry env info --path
 ```
 
-```shell
-$ poetry add  
+List all virtual environments associated with the current project
+
+```bash
+poetry env list
 ```
 
-```shell
-$ poetry add  
-```
+**run poetry app**
 
 ```shell
-$ poetry add  
-```
+poetry run uvicorn folder_name.file_name:app --port 8000 --reload
 
-```shell
-$ poetry add  
-```
-
-run poetry app
-
-```shell
-$ poetry run uvicorn folder_name.file_name:app --port 8000 --reload
-
-$ poetry run uvicorn app.main:app --port 8000 --reload
+poetry run uvicorn app.main:app --port 8000 --reload
 ```
 
 **commands**
@@ -117,11 +109,10 @@ poetry add "python-jose[cryptography]"
 ```shell
 poetry add types-passlib
 ```
-generate a random string of bytes in hexadecimal format
+**Generate a random string of bytes in hexadecimal format**
 ```bash
 openssl rand -hex 32
 ``` 
-
 
 
 Poetry 
