@@ -57,9 +57,6 @@ poetry add aiokafka
 poetry add protobuf
 ```
 
-```shell
-poetry add passlib  
-```
 
 **Current virtual environment for your Poetry project**
 
@@ -95,35 +92,9 @@ poetry run pytest
 ```
 
 ```shell
-poetry add aiokafka
-```
-
-```shell
-poetry add protobuf
-```
-
-```shell
 poetry add pyjwt
 ```
 
-```shell
-pip install "passlib[bcrypt]"
-
-poetry add "passlib[bcrypt]" 
-```
-**======================================**
-
-```shell
-poetry add types-python-jose
-```
-
-```shell
-poetry add "python-jose[cryptography]"
-```
-
-```shell
-poetry add types-passlib
-```
 **Generate a random string of bytes in hexadecimal format**
 ```bash
 openssl rand -hex 32
