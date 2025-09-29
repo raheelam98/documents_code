@@ -7,7 +7,7 @@ File Permissions with chmod -- only for mac user
 
 current working directory
 ```bash
-pwd
+pwd 
 ```
 
 grants all users full read, write, and execute permissions on the specified folder and its contents
